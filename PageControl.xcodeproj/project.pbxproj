@@ -50,12 +50,11 @@
 		53E214E91265003C0028355A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 53E214E11265003C0028355A /* Icon.png */; };
 		53E214EA1265003C0028355A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53E214E21265003C0028355A /* Icon@2x.png */; };
 		53E214EB1265003C0028355A /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 53E214E31265003C0028355A /* iTunesArtwork */; };
-		84676EB916A40754001A6767 /* libprofile_rt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84676EB816A40754001A6767 /* libprofile_rt.dylib */; };
-		84A7212B16A0755200F3088D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		84A7212C16A0755200F3088D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		84A7213216A0755200F3088D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84A7213016A0755200F3088D /* InfoPlist.strings */; };
-		84A7213516A0755200F3088D /* pageControlTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A7213416A0755200F3088D /* pageControlTest.m */; };
-		84A7213B16A0757700F3088D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A7213A16A0757700F3088D /* SenTestingKit.framework */; };
+		84B3C55A16A412A6003A9B46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		84B3C55B16A412A6003A9B46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		84B3C56116A412A6003A9B46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84B3C55F16A412A6003A9B46 /* InfoPlist.strings */; };
+		84B3C56416A412A6003A9B46 /* pageControlTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3C56316A412A6003A9B46 /* pageControlTest.m */; };
+		84B3C56B16A412C6003A9B46 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B3C56A16A412C6003A9B46 /* SenTestingKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,15 +111,13 @@
 		53E214E11265003C0028355A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		53E214E21265003C0028355A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		53E214E31265003C0028355A /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
-		84676EB816A40754001A6767 /* libprofile_rt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libprofile_rt.dylib; path = /Developer/usr/lib/libprofile_rt.dylib; sourceTree = "<absolute>"; };
-		84A7211E16A0734D00F3088D /* PageControl copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PageControl copy2-Info.plist"; path = "/Users/admin/testapp/PageControl copy2-Info.plist"; sourceTree = "<absolute>"; };
-		84A7212816A0755200F3088D /* pageControlTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pageControlTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84A7212F16A0755200F3088D /* pageControlTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pageControlTest-Info.plist"; sourceTree = "<group>"; };
-		84A7213116A0755200F3088D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		84A7213316A0755200F3088D /* pageControlTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pageControlTest.h; sourceTree = "<group>"; };
-		84A7213416A0755200F3088D /* pageControlTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pageControlTest.m; sourceTree = "<group>"; };
-		84A7213616A0755200F3088D /* pageControlTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pageControlTest-Prefix.pch"; sourceTree = "<group>"; };
-		84A7213A16A0757700F3088D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		84B3C55716A412A6003A9B46 /* pageControlTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pageControlTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B3C55E16A412A6003A9B46 /* pageControlTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pageControlTest-Info.plist"; sourceTree = "<group>"; };
+		84B3C56016A412A6003A9B46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84B3C56216A412A6003A9B46 /* pageControlTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pageControlTest.h; sourceTree = "<group>"; };
+		84B3C56316A412A6003A9B46 /* pageControlTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pageControlTest.m; sourceTree = "<group>"; };
+		84B3C56516A412A6003A9B46 /* pageControlTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pageControlTest-Prefix.pch"; sourceTree = "<group>"; };
+		84B3C56A16A412C6003A9B46 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,14 +132,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84A7212416A0755200F3088D /* Frameworks */ = {
+		84B3C55316A412A6003A9B46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84676EB916A40754001A6767 /* libprofile_rt.dylib in Frameworks */,
-				84A7213B16A0757700F3088D /* SenTestingKit.framework in Frameworks */,
-				84A7212B16A0755200F3088D /* UIKit.framework in Frameworks */,
-				84A7212C16A0755200F3088D /* Foundation.framework in Frameworks */,
+				84B3C56B16A412C6003A9B46 /* SenTestingKit.framework in Frameworks */,
+				84B3C55A16A412A6003A9B46 /* UIKit.framework in Frameworks */,
+				84B3C55B16A412A6003A9B46 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* PageControl.app */,
-				84A7212816A0755200F3088D /* pageControlTest.octest */,
+				84B3C55716A412A6003A9B46 /* pageControlTest.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,10 +173,9 @@
 				29B97315FDCFA39411CA2CEA /* Main */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
-				84A7212D16A0755200F3088D /* pageControlTest */,
+				84B3C55C16A412A6003A9B46 /* pageControlTest */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				84A7211E16A0734D00F3088D /* PageControl copy2-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -212,8 +207,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				84676EB816A40754001A6767 /* libprofile_rt.dylib */,
-				84A7213A16A0757700F3088D /* SenTestingKit.framework */,
+				84B3C56A16A412C6003A9B46 /* SenTestingKit.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
@@ -311,22 +305,22 @@
 			path = images;
 			sourceTree = "<group>";
 		};
-		84A7212D16A0755200F3088D /* pageControlTest */ = {
+		84B3C55C16A412A6003A9B46 /* pageControlTest */ = {
 			isa = PBXGroup;
 			children = (
-				84A7213316A0755200F3088D /* pageControlTest.h */,
-				84A7213416A0755200F3088D /* pageControlTest.m */,
-				84A7212E16A0755200F3088D /* Supporting Files */,
+				84B3C56216A412A6003A9B46 /* pageControlTest.h */,
+				84B3C56316A412A6003A9B46 /* pageControlTest.m */,
+				84B3C55D16A412A6003A9B46 /* Supporting Files */,
 			);
 			path = pageControlTest;
 			sourceTree = "<group>";
 		};
-		84A7212E16A0755200F3088D /* Supporting Files */ = {
+		84B3C55D16A412A6003A9B46 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				84A7212F16A0755200F3088D /* pageControlTest-Info.plist */,
-				84A7213016A0755200F3088D /* InfoPlist.strings */,
-				84A7213616A0755200F3088D /* pageControlTest-Prefix.pch */,
+				84B3C55E16A412A6003A9B46 /* pageControlTest-Info.plist */,
+				84B3C55F16A412A6003A9B46 /* InfoPlist.strings */,
+				84B3C56516A412A6003A9B46 /* pageControlTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -351,14 +345,14 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* PageControl.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84A7212716A0755200F3088D /* pageControlTest */ = {
+		84B3C55616A412A6003A9B46 /* pageControlTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84A7213716A0755200F3088D /* Build configuration list for PBXNativeTarget "pageControlTest" */;
+			buildConfigurationList = 84B3C56816A412A6003A9B46 /* Build configuration list for PBXNativeTarget "pageControlTest" */;
 			buildPhases = (
-				84A7212316A0755200F3088D /* Sources */,
-				84A7212416A0755200F3088D /* Frameworks */,
-				84A7212516A0755200F3088D /* Resources */,
-				84A7212616A0755200F3088D /* ShellScript */,
+				84B3C55216A412A6003A9B46 /* Sources */,
+				84B3C55316A412A6003A9B46 /* Frameworks */,
+				84B3C55416A412A6003A9B46 /* Resources */,
+				84B3C55516A412A6003A9B46 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -366,7 +360,7 @@
 			);
 			name = pageControlTest;
 			productName = pageControlTest;
-			productReference = 84A7212816A0755200F3088D /* pageControlTest.octest */;
+			productReference = 84B3C55716A412A6003A9B46 /* pageControlTest.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -390,7 +384,7 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* PageControl */,
-				84A7212716A0755200F3088D /* pageControlTest */,
+				84B3C55616A412A6003A9B46 /* pageControlTest */,
 			);
 		};
 /* End PBXProject section */
@@ -434,18 +428,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84A7212516A0755200F3088D /* Resources */ = {
+		84B3C55416A412A6003A9B46 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A7213216A0755200F3088D /* InfoPlist.strings in Resources */,
+				84B3C56116A412A6003A9B46 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		84A7212616A0755200F3088D /* ShellScript */ = {
+		84B3C55516A412A6003A9B46 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -477,11 +471,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84A7212316A0755200F3088D /* Sources */ = {
+		84B3C55216A412A6003A9B46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A7213516A0755200F3088D /* pageControlTest.m in Sources */,
+				84B3C56416A412A6003A9B46 /* pageControlTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,10 +546,10 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		84A7213016A0755200F3088D /* InfoPlist.strings */ = {
+		84B3C55F16A412A6003A9B46 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84A7213116A0755200F3088D /* en */,
+				84B3C56016A412A6003A9B46 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -577,7 +571,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
 				PRODUCT_NAME = PageControl;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos3.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -594,12 +588,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
 				PRODUCT_NAME = PageControl;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos3.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		84A7213816A0755200F3088D /* Debug */ = {
+		84B3C56616A412A6003A9B46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -615,8 +609,6 @@
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
-				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pageControlTest/pageControlTest-Prefix.pch";
@@ -628,10 +620,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				INFOPLIST_FILE = "pageControlTest/pageControlTest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/Developer/usr/lib,
-				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -639,7 +627,7 @@
 			};
 			name = Debug;
 		};
-		84A7213916A0755200F3088D /* Release */ = {
+		84B3C56716A412A6003A9B46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -654,17 +642,11 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
-				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pageControlTest/pageControlTest-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				INFOPLIST_FILE = "pageControlTest/pageControlTest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/Developer/usr/lib,
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -716,14 +698,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84A7213716A0755200F3088D /* Build configuration list for PBXNativeTarget "pageControlTest" */ = {
+		84B3C56816A412A6003A9B46 /* Build configuration list for PBXNativeTarget "pageControlTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84A7213816A0755200F3088D /* Debug */,
-				84A7213916A0755200F3088D /* Release */,
+				84B3C56616A412A6003A9B46 /* Debug */,
+				84B3C56716A412A6003A9B46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PageControl" */ = {
 			isa = XCConfigurationList;

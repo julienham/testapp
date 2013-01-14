@@ -16,7 +16,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84A7212716A0755200F3088D"
+               BlueprintIdentifier = "84B3C55616A412A6003A9B46"
                BuildableName = "pageControlTest.octest"
                BlueprintName = "pageControlTest"
                ReferencedContainer = "container:PageControl.xcodeproj">
